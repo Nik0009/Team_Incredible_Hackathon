@@ -1,0 +1,103 @@
+
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+.numbers-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.notification-panel {
+  flex: 2;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.notification-panel h2 {
+  margin-bottom: 20px;
+  color: rgb(61, 143, 197);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.panel-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+   display: flex;
+   gap: 0.2rem;
+   justify-content: space-evenly;
+  
+  
+}
+
+.map-container {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+.map-image {
+  max-width: 100%;
+  margin-left: 1rem;
+  margin-right: 5rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text{
+  background-color: red;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li p {
+  margin: 0;
+}

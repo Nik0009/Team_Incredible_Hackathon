@@ -1,0 +1,23 @@
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #282c34;
+  }
+  
+  button:hover {
+    background-color: #21a1f1;
+  }

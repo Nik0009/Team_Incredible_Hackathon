@@ -1,0 +1,10 @@
+
+/* styles.css */
+.bg-image {
+  background-image: url("assets/background.jpeg"); /* Adjust the path accordingly */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 80%;
+}
